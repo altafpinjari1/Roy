@@ -1,0 +1,23 @@
+.childDiv{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(228, 140, 9);
+}
+.parentDiv{
+    border: 1px solid black;
+    padding-bottom: 50px;
+    margin: 20px;
+    background-color: blueviolet;
+}
+img{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.childDiv img :hover{
+box-shadow: 5px 5px 5px 5px black;
+position: relative;
+
+}
+.parentDiv :hover{
+    border-radius: 100px 100px 100px 100px;
+}
